@@ -1,4 +1,4 @@
-FROM discord-bot-docker:latest
+FROM node:18-alpine
 
 WORKDIR /app
 
