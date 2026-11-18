@@ -18,7 +18,7 @@ An example is shown below on how your config file should be organized.
     }
 
 </p>
--------------------------------------
+
 
 To run this from a brand new setup, first run the following command:  "docker build discord-bot-docker ."
 Next run:  "docker compose up"
