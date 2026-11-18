@@ -9,11 +9,12 @@ Dependencies are:
 An example is shown below on how your config file should be organized.
 
 -------------------------------------
-{
+<p>{
     "token": "YOUR_BOT_TOKEN",
     "clientId": "YOUR_BOT_CLIENT_ID",
     "guildId": "YOUR_SERVER_GUILD_ID"
 }
+</p>
 -------------------------------------
 
 To run this from a brand new setup, first run the following command:  "docker build discord-bot-docker ."
