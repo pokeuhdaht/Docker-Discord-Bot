@@ -10,9 +10,11 @@ An example is shown below on how your config file should be organized.
 
 -------------------------------------
 <p>{
+    
     "token": "YOUR_BOT_TOKEN",
     "clientId": "YOUR_BOT_CLIENT_ID",
     "guildId": "YOUR_SERVER_GUILD_ID"
+
 }
 </p>
 -------------------------------------
