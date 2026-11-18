@@ -1,0 +1,13 @@
+services:
+  discord-bot:
+    image: discord-bot-docker:latest
+    container_name: discord-bot
+    restart: unless-stopped
+    configs:
+      - source: app_config
+        target: /app/config.json
+    command: sh -c "node deploy-commands.js && node index.js"
+
+configs:
+  app_config:
+    file: ./config.json
